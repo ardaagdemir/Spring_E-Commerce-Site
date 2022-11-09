@@ -1,4 +1,4 @@
-package com.example.utils;
+package com.example.services.utils;
 
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.Claims;

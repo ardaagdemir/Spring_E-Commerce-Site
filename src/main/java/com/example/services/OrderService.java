@@ -1,11 +1,10 @@
 package com.example.services;
 
 import com.example.entities.Order;
-import com.example.entities.Product;
 import com.example.entities.joinTables.JoinOrderDetails;
 import com.example.repositories.joinRepository.JoinOrderDetailsRepository;
 import com.example.repositories.OrderRepository;
-import com.example.utils.REnum;
+import com.example.services.utils.REnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

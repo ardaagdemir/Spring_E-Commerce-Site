@@ -1,6 +1,6 @@
 package com.example.configs;
 
-import com.example.utils.REnum;
+import com.example.services.utils.REnum;
 import io.jsonwebtoken.MalformedJwtException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpHeaders;

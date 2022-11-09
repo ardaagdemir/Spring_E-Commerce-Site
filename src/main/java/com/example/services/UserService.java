@@ -3,8 +3,8 @@ import com.example.entities.Role;
 import com.example.entities.User;
 import com.example.props.JWTLogin;
 import com.example.repositories.UserRepository;
-import com.example.utils.JwtUtil;
-import com.example.utils.REnum;
+import com.example.services.utils.JwtUtil;
+import com.example.services.utils.REnum;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
@@ -101,7 +101,6 @@ public class UserService implements UserDetailsService {
                 hm.put(REnum.result, userDetails);
                 hm.put(REnum.userId, u.getUid());
                 hm.put(REnum.userName, u.getFirstName() + " " + u.getLastName());
-
             }
             return new ResponseEntity(hm, HttpStatus.OK);
 

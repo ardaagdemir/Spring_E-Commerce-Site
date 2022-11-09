@@ -1,10 +1,9 @@
 package com.example.services;
 
 import com.example.entities.Category;
-import com.example.entities.joinTables.JoinProCat;
 import com.example.repositories.CategoryRepository;
 import com.example.repositories.joinRepository.JoinProCatRepository;
-import com.example.utils.REnum;
+import com.example.services.utils.REnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

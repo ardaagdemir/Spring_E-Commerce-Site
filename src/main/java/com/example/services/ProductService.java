@@ -6,7 +6,7 @@ import com.example.entities.joinTables.JoinProImg;
 import com.example.repositories.ProductRepository;
 import com.example.repositories.joinRepository.JoinProCatRepository;
 import com.example.repositories.joinRepository.JoinProImgRepository;
-import com.example.utils.REnum;
+import com.example.services.utils.REnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
